@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+      .home-right .image img {
+        width: 90%;
+        height: auto;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">PORTFOLIO</div>
+        <div class="menu">
+            <ul class="menu-links">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SKILLS</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+            <i class="fa fa-bars" id="toggle"></i>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="home-left">
+            <h3>Hi, my name is</h3>
+            <h1>Aryan Patel</h1>
+            <h2>and I'm a <span>Web Developer</span></h2>
+            <div class="btn-bx">
+                <button>HIRE ME</button>
+            </div>
+        </div>
+        <div class="home-right">
+            <div class="image">
+                <img src="Note/20516-4-goku-photo.png" alt="" />
+            </div>
+        </div>
+    </section>
+    <div class="social-icons">
+        <span><h3>Connect:</span>
+        <a href="https://www.facebook.com/profile.php?id=100072848295602&mibextid=ZbWKwL"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://twitter.com/Venuzx7"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/aryan_venuz/"><i class="fab fa-instagram-square"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
+    </div>
+    <script>
+        const toggle = document.querySelector('#toggle');
+        const menu = document.querySelector('.menu-links');
+
+        toggle.onclick = function(){
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
