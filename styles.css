@@ -11,10 +11,10 @@
 }
 
 body {
-  height: 100vh;
+  height: 200vh;
   background-color: azure;
   display: flex;
-  min-width: 400px;
+  min-width: 300px;
   flex-direction: column;
 }
 
